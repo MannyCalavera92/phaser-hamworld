@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="25" height="20" tilewidth="50" tileheight="50" nextobjectid="1">
+ <tileset firstgid="1" name="paja" tilewidth="80" tileheight="63" tilecount="1" columns="1">
+  <image source="../sprites/cubos/cajapaja(80x64).png" width="80" height="63"/>
+ </tileset>
+ <tileset firstgid="2" name="paja2" tilewidth="80" tileheight="64" tilecount="1" columns="1">
+  <image source="../sprites/cubos/cajapaja2(80x64).png" width="80" height="64"/>
+  <terraintypes>
+   <terrain name="Nuevo Terreno" tile="-1"/>
+  </terraintypes>
+  <tile id="0" terrain="0,0,0,0"/>
+ </tileset>
+ <tileset firstgid="3" name="madera" tilewidth="80" tileheight="63" tilecount="1" columns="1">
+  <image source="../sprites/cubos/cajamadera(80x63-55x50).png" width="80" height="63"/>
+ </tileset>
+ <tileset firstgid="4" name="caramelo" tilewidth="80" tileheight="64" tilecount="1" columns="1">
+  <image source="../sprites/cubos/caramelo(80x64).png" width="80" height="65"/>
+ </tileset>
+ <tileset firstgid="5" name="cuadraditos" tilewidth="80" tileheight="63" tilecount="1" columns="1">
+  <image source="../sprites/cubos/cuadraditos(80x64).png" width="80" height="63"/>
+ </tileset>
+ <layer name="Level_1_layer1" width="25" height="20">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,2,2,1,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,
+1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,
+1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,1,
+1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,1,2,2,2,2,2,2,2,2,2,4,0,0,4,1,1,1,1,1,1,1,1,1,1,
+1,0,0,0,0,0,0,0,0,0,0,4,0,0,4,5,1,5,1,5,1,5,1,1,1,
+1,0,0,0,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,4,0,0,4,1,5,1,5,1,5,1,0,0,1,
+1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,1,5,1,5,1,0,0,0,0,1,0,0,0,0,0,3,0,0,0,1,0,0,0,1,
+1,1,1,1,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,4,0,4,1,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,1,4,0,4,1,0,0,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,4,0,4,1,0,0,1,
+1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,3,0,0,0,3,0,0,0,0,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+</map>
